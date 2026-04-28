@@ -8,20 +8,14 @@
     combos {
         compatible = "zmk,combos";
 
-        bt_clear {
-            bindings = <&bt BT_CLR>;
-            key-positions = <42 43>;
-            layers = <2>;
-        };
-
         lang2 {
             bindings = <&kp LANG2>;
-            key-positions = <43 42>;
+            key-positions = <29 28>;
         };
 
         lang1 {
             bindings = <&kp LANG1>;
-            key-positions = <46 47>;
+            key-positions = <32 33>;
         };
 
         tab {
